@@ -1,0 +1,43 @@
+# ── Hasil generate Unity (dibuat ulang otomatis, jangan dilacak) ──
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+sysinfo.txt
+crashlytics-build.properties
+
+# ── IDE dan file sistem ──
+/.vs/
+/.vscode/
+/.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# ── Hasil build (APK tidak masuk repo; rilis lewat GitHub Releases) ──
+/[Bb]uilds/
+*.apk
+*.aab
+*.unitypackage
+
+# ── Kunci tanda tangan dan rahasia (selalu lokal) ──
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+
+# ── Folder sementara build Unity ──
+/.utmp/
